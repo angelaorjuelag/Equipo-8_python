@@ -3,7 +3,7 @@
 ## Determinar los objetivos del negocio
 
 ### Antecedentes
-El trabajo infantil en Bogotá sigue siendo un fenómeno social complejo que limita el desarrollo integral de los niños, niñas y adolescentes (NNA), afectando su acceso a la educación, su bienestar emocional y su salud física. La existencia de registros integrados ofrece una oportunidad para caracterizar y comprender este problema de manera más precisa..
+El trabajo infantil en Bogotá sigue siendo un fenómeno social complejo que limita el desarrollo integral de los niños, niñas y adolescentes (NNA), afectando su acceso a la educación, su bienestar emocional y su salud física. La existencia de registros integrados ofrece una oportunidad para caracterizar y comprender este problema de manera más precisa.
 
 ### Objetivos del negocio
 Generar un diagnóstico claro y sustentado sobre la magnitud y características del trabajo infantil en la ciudad, de forma que la información obtenida permita fortalecer los programas de prevención, atención y erradicación.
