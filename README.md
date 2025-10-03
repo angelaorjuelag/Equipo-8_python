@@ -107,4 +107,38 @@ El proyecto se considerará exitoso si logra:
 
 **Indicador:** Medida cuantitativa construida a partir de los datos para describir un fenómeno (ejemplo: porcentaje de NNA que trabajan por localidad).
 
+# **Recursos**
+
+- **Identificación y fechas:**  
+  `Id_fic`, `Usuario`, `Red_fic`, `Fecha_intervencion`, `Fecha_seguimiento_cierre`, `Fecha_reposicion`.  
+  *Variables clave para identificar cada registro y dar seguimiento temporal a los procesos.*  
+
+- **Resultados y seguimiento:**  
+  `NNA_desvinculado_de_la_actividad_laboral`, `Adolescente_trabajo_protegido`, `Intervencion_que_termina_el_proceso`.  
+  *Indicadores sobre el estado del proceso y resultados obtenidos en la intervención.*  
+
+- **Salud y nutrición:**  
+  `Peso`, `Talla_cm`, `Clasificacion_nutricional`, `Requiere_asesoria_de_nutricion`, `Alertas_psicosociales`, `Salud_bucal`, `Infancia`, `En_mujeres`, `Etapa_de_gestacion`.  
+  *Variables que describen el estado físico y nutricional del NNA, así como alertas de salud.*  
+
+- **Individuo y hogar:**  
+  `Edad`, `Sexo`, `Genero`, `Estado_civil`, `Fecha_nacimiento`, `Nacionalidad`, `Etnia`, `Pueblo`, `Vinculo_con_el_jefe_de_hogar`, `Personas_a_cargo`.  
+  *Características sociodemográficas y del entorno familiar del NNA.*  
+
+- **Educación y trabajo:**  
+  `Ocupacion`, `IdNivelEducativo`, `RazonAbandonoEscolar`.  
+  *Información educativa y laboral que permite analizar el impacto del trabajo infantil en la formación.*  
+
+- **Protección social:**  
+  `Afiliacion_al_SGSSS`, `Nombre_EAPB`, `Subgrupo_SISBEN`, `Estrato`.  
+  *Variables que identifican el acceso a servicios de salud y programas sociales.*  
+
+- **Territorio y dirección:**  
+  `Localidad`, `UPZ`, `Barrio`, `Barrio_priorizado`, `Manzana_del_cuidado`, `Coordenadas_X/Y`.  
+  *Información territorial que permite localizar espacialmente a los NNA y detectar focos de vulnerabilidad.*  
+
+- **Operación del programa:**  
+  `Nombre_de_la_UT`, `Perfil_profesional`, `Temas_tratados`, `Acompanamiento#`, `IEC#`.  
+  *Datos sobre la gestión y seguimiento de los programas de intervención.*  
+
 
