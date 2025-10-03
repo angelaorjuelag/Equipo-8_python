@@ -1,0 +1,686 @@
+[
+    {
+        "variable": "Id_fic",
+        "tipo": "int64",
+        "valores_unicos": 51895,
+        "nulos": 0
+    },
+    {
+        "variable": "Base_Origen",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "Ficha_fic",
+        "tipo": "int64",
+        "valores_unicos": 51892,
+        "nulos": 0
+    },
+    {
+        "variable": "Fecha_intervencion",
+        "tipo": "datetime64[ns]",
+        "valores_unicos": 1233,
+        "nulos": 0
+    },
+    {
+        "variable": "Localidad_fic",
+        "tipo": "object",
+        "valores_unicos": 20,
+        "nulos": 0
+    },
+    {
+        "variable": "Red_fic",
+        "tipo": "object",
+        "valores_unicos": 8,
+        "nulos": 0
+    },
+    {
+        "variable": "Usuario",
+        "tipo": "object",
+        "valores_unicos": 348,
+        "nulos": 0
+    },
+    {
+        "variable": "TIPO_INTERVENCION",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "PERFIL",
+        "tipo": "object",
+        "valores_unicos": 7,
+        "nulos": 0
+    },
+    {
+        "variable": "TIPO INTERVENCIÓN",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": ".INFORMACIÓN DEL MENOR.",
+        "tipo": "int64",
+        "valores_unicos": 7946,
+        "nulos": 0
+    },
+    {
+        "variable": "Sub-Sección => INFORMACIÓN DEL MENOR NNA IDENTIFICADO COMO TRABAJADOR",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "NACIONALIDAD",
+        "tipo": "object",
+        "valores_unicos": 17,
+        "nulos": 0
+    },
+    {
+        "variable": "SEXO",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "GENERO",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "ESTADO CIVIL",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA DE NACIMIENTO",
+        "tipo": "object",
+        "valores_unicos": 7334,
+        "nulos": 0
+    },
+    {
+        "variable": "EDAD",
+        "tipo": "int64",
+        "valores_unicos": 20,
+        "nulos": 0
+    },
+    {
+        "variable": "CURSO DE VIDA",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "ETNIA",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "POBLACIÓN DIFERENCIAL Y DE INCLUSIÓN",
+        "tipo": "object",
+        "valores_unicos": 13,
+        "nulos": 0
+    },
+    {
+        "variable": ".Personas a Cargo.",
+        "tipo": "float64",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "OCUPACIÓN",
+        "tipo": "object",
+        "valores_unicos": 14,
+        "nulos": 0
+    },
+    {
+        "variable": "IdNivelEducativo",
+        "tipo": "object",
+        "valores_unicos": 12,
+        "nulos": 0
+    },
+    {
+        "variable": "RazonAbandonoEscolar",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "CATEGORÍAS DE LA DISCAPACIDAD",
+        "tipo": "object",
+        "valores_unicos": 7,
+        "nulos": 0
+    },
+    {
+        "variable": "HABLA ESPAÑOL",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "PUEBLO",
+        "tipo": "object",
+        "valores_unicos": 10,
+        "nulos": 0
+    },
+    {
+        "variable": "VÍNCULO CON EL JEFE DE HOGAR",
+        "tipo": "object",
+        "valores_unicos": 15,
+        "nulos": 0
+    },
+    {
+        "variable": "AFILIACIÓN AL SGSSS",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "NOMBRE EAPB",
+        "tipo": "object",
+        "valores_unicos": 370,
+        "nulos": 12
+    },
+    {
+        "variable": "DIRECCIÓN DE LA VIVIENDA",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "ZONA",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "ESPECIAL",
+        "tipo": "int64",
+        "valores_unicos": 12,
+        "nulos": 0
+    },
+    {
+        "variable": "LOCALIDAD",
+        "tipo": "object",
+        "valores_unicos": 21,
+        "nulos": 0
+    },
+    {
+        "variable": "UPZ/UPR",
+        "tipo": "int64",
+        "valores_unicos": 120,
+        "nulos": 0
+    },
+    {
+        "variable": "BARRIO PRIORIZADO",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "MANZANA DEL CUIDADO",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "NUMERO DE MANZANA DEL CUIDADO",
+        "tipo": "object",
+        "valores_unicos": 19,
+        "nulos": 0
+    },
+    {
+        "variable": "ESTRATO",
+        "tipo": "object",
+        "valores_unicos": 7,
+        "nulos": 0
+    },
+    {
+        "variable": "SUBGRUPO SISBEN",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "TELÉFONO 1",
+        "tipo": "object",
+        "valores_unicos": 21058,
+        "nulos": 0
+    },
+    {
+        "variable": "TELÉFONO 2",
+        "tipo": "int64",
+        "valores_unicos": 1722,
+        "nulos": 0
+    },
+    {
+        "variable": "VEREDA",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 0
+    },
+    {
+        "variable": "CORREO  1",
+        "tipo": "object",
+        "valores_unicos": 578,
+        "nulos": 0
+    },
+    {
+        "variable": "CORREO  2",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "ÚLTIMA INTERVENCIÓN",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA DE LA ÚLTIMA INTERVENCIÓN",
+        "tipo": "object",
+        "valores_unicos": 227,
+        "nulos": 0
+    },
+    {
+        "variable": "NÚMERO DE FICHA ANTERIOR",
+        "tipo": "int64",
+        "valores_unicos": 1277,
+        "nulos": 0
+    },
+    {
+        "variable": "Sub-Sección => INFORMACIÓN DEL ACUDIENTE",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "AFILIACIÓN AL SGSSS.1",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "NOMBRE EAPB.1",
+        "tipo": "object",
+        "valores_unicos": 297,
+        "nulos": 13
+    },
+    {
+        "variable": "ESTRATO SOCIOECONÓMICO",
+        "tipo": "object",
+        "valores_unicos": 7,
+        "nulos": 0
+    },
+    {
+        "variable": "Sub-Sección => INFORMACIÓN LABORAL",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "DIRECCIÓN DEL TRABAJO",
+        "tipo": "object",
+        "valores_unicos": 3640,
+        "nulos": 0
+    },
+    {
+        "variable": "ZONA.1",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 0
+    },
+    {
+        "variable": "ESPECIAL.1",
+        "tipo": "int64",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "LOCALIDAD.1",
+        "tipo": "object",
+        "valores_unicos": 21,
+        "nulos": 0
+    },
+    {
+        "variable": "UPZ/UPR.1",
+        "tipo": "int64",
+        "valores_unicos": 111,
+        "nulos": 0
+    },
+    {
+        "variable": "BARRIO.1",
+        "tipo": "object",
+        "valores_unicos": 2323,
+        "nulos": 0
+    },
+    {
+        "variable": "BARRIO PRIORIZADO.1",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "MANZANA DEL CUIDADO.1",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "NUMERO DE MANZANA DEL CUIDADO.1",
+        "tipo": "object",
+        "valores_unicos": 24,
+        "nulos": 0
+    },
+    {
+        "variable": "NOMBRE DE LA UT",
+        "tipo": "object",
+        "valores_unicos": 10860,
+        "nulos": 0
+    },
+    {
+        "variable": "¿EN DONDE REALIZA PRINCIPALMENTE SU TRABAJO?",
+        "tipo": "object",
+        "valores_unicos": 8,
+        "nulos": 0
+    },
+    {
+        "variable": "ACOMPAÑAMIENTO 1 - PERFIL",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "TEMA TRATADOS",
+        "tipo": "object",
+        "valores_unicos": 17,
+        "nulos": 0
+    },
+    {
+        "variable": "IEC",
+        "tipo": "object",
+        "valores_unicos": 19,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA SEGUIMIENTO",
+        "tipo": "object",
+        "valores_unicos": 554,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS PSICOSOCIALES",
+        "tipo": "object",
+        "valores_unicos": 11,
+        "nulos": 0
+    },
+    {
+        "variable": "CUMPLIÓ",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 338
+    },
+    {
+        "variable": "ACOMPAÑAMIENTO 2",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "PERFIL.1",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "TEMAS TRATADOS",
+        "tipo": "object",
+        "valores_unicos": 26,
+        "nulos": 0
+    },
+    {
+        "variable": "IEC.1",
+        "tipo": "object",
+        "valores_unicos": 18,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA",
+        "tipo": "object",
+        "valores_unicos": 98,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS PSICOSOCIALES.1",
+        "tipo": "object",
+        "valores_unicos": 9,
+        "nulos": 0
+    },
+    {
+        "variable": "CUMPLIÓ.1",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 84
+    },
+    {
+        "variable": "ACOMPAÑAMIENTO 3",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "PERFIL.2",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "TEMAS TRATADOS.1",
+        "tipo": "object",
+        "valores_unicos": 26,
+        "nulos": 0
+    },
+    {
+        "variable": "IEC.2",
+        "tipo": "object",
+        "valores_unicos": 14,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA.1",
+        "tipo": "object",
+        "valores_unicos": 77,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS PSICOSOCIALES.2",
+        "tipo": "object",
+        "valores_unicos": 9,
+        "nulos": 0
+    },
+    {
+        "variable": "CUMPLIÓ.2",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 23
+    },
+    {
+        "variable": "ACOMPAÑAMIENTO 4",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "PERFIL.3",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 0
+    },
+    {
+        "variable": "TEMAS TRATADOS.2",
+        "tipo": "object",
+        "valores_unicos": 8,
+        "nulos": 0
+    },
+    {
+        "variable": "IEC.3",
+        "tipo": "object",
+        "valores_unicos": 22,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA.2",
+        "tipo": "object",
+        "valores_unicos": 104,
+        "nulos": 0
+    },
+    {
+        "variable": "CUMPLIÓ.3",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 223
+    },
+    {
+        "variable": "CONDICIONES CRÓNICAS",
+        "tipo": "object",
+        "valores_unicos": 85,
+        "nulos": 0
+    },
+    {
+        "variable": "ENFERMEDADES TRANSMISIBLES Y ETV",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS EN NUTRICIÓN",
+        "tipo": "object",
+        "valores_unicos": 13,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS PSICOSOCIALES.3",
+        "tipo": "object",
+        "valores_unicos": 9,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS SALUD BUCAL",
+        "tipo": "object",
+        "valores_unicos": 75,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS INFANCIA",
+        "tipo": "object",
+        "valores_unicos": 10,
+        "nulos": 0
+    },
+    {
+        "variable": "ALERTAS EN MUJERES",
+        "tipo": "object",
+        "valores_unicos": 8,
+        "nulos": 0
+    },
+    {
+        "variable": "ETAPA DE GESTACIÓN",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 0
+    },
+    {
+        "variable": "ACUDIENTE AUTORIZA VERIFICACIÓN O TOMA DE PESO Y TALLA",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 0
+    },
+    {
+        "variable": "PESO",
+        "tipo": "float64",
+        "valores_unicos": 601,
+        "nulos": 0
+    },
+    {
+        "variable": "TALLA_CM",
+        "tipo": "float64",
+        "valores_unicos": 138,
+        "nulos": 0
+    },
+    {
+        "variable": "CLASIFICACIÓN NUTRICIONAL",
+        "tipo": "object",
+        "valores_unicos": 10,
+        "nulos": 0
+    },
+    {
+        "variable": "REQUIERE ASESORÍA DE NUTRICIÓN",
+        "tipo": "object",
+        "valores_unicos": 3,
+        "nulos": 0
+    },
+    {
+        "variable": "INTERVENCIÓN DE NIÑO, NIÑA O ADOLESCENTE QUE TERMINA EL PROCESO",
+        "tipo": "object",
+        "valores_unicos": 5,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA - SEGUIMIENTO CIERRE",
+        "tipo": "object",
+        "valores_unicos": 835,
+        "nulos": 0
+    },
+    {
+        "variable": "NNA DESVINCULADO DE LA ACTIVIDAD LABORAL",
+        "tipo": "object",
+        "valores_unicos": 6,
+        "nulos": 0
+    },
+    {
+        "variable": "Sub-Sección => Intervención de Niño, Niña o Adolescente",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "Sub-Sección => RESULTADOS DE LA INTERVENCIÓN",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "ADOLESCENTE TRABAJO PROTEGIDO",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "Sub-Sección => RESULTADOS DE LA REPOSICION",
+        "tipo": "int64",
+        "valores_unicos": 1,
+        "nulos": 0
+    },
+    {
+        "variable": "FECHA - REPOSICIÓN DE PSICÓLOGO O TRABAJADOR SOCIAL POSTERIOR AL SEGUIMIENTO - CIERRE",
+        "tipo": "object",
+        "valores_unicos": 247,
+        "nulos": 0
+    },
+    {
+        "variable": "NNA DESVINCULADO DE LA ACTIVIDAD LABORAL.1",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    },
+    {
+        "variable": "ADOLESCENTE TRABAJO PROTEGIDO.1",
+        "tipo": "object",
+        "valores_unicos": 4,
+        "nulos": 0
+    }
+]
