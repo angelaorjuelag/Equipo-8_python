@@ -1,4 +1,4 @@
-# Entendimiento del negocio
+# **Entendimiento del negocio**
 
 ## Determinar los objetivos del negocio
 
@@ -37,7 +37,9 @@ Explorar la base para identificar patrones en la situación de los NNA, como fac
 Lograr indicadores estadísticos, visualizaciones y modelos analíticos que permitan identificar perfiles de riesgo y zonas prioritarias de intervención, aportando valor real a los responsables de políticas sociales.
 
 
-# Objetivos
+# **Objetivos**
+
+## Objetivo específico
 Analizar la situación del trabajo infantil en Bogotá a partir de registros sociales, familiares y de salud, con el fin de generar información que oriente políticas públicas y acciones de protección para los niños, niñas y adolescentes.
  
 ## Objetivo específico
@@ -48,8 +50,61 @@ Analizar la situación del trabajo infantil en Bogotá a partir de registros soc
 
 **3.** Identificar diferencias territoriales y patrones de concentración del fenómeno entre localidades de Bogotá, que permitan orientar estrategias de intervención diferenciadas.
 
-**4.** Detectar variables críticas (económicas, sociales, educativas o de salud) que influyen en la probabilidad de que un NNA se encuentre en trabajo infantil o en sus peores formas.
+**4.** Detectar variables críticas (entre económicas, sociales, educativas o de salud) que influyen en la probabilidad de que un NNA se encuentre en trabajo infantil o en sus peores formas.
 
 **5.** Generar información organizada, visual e interpretativa que facilite el entendimiento integral de la problemática y sirva como insumo para la formulación de políticas públicas y programas de protección infantil.
+
+# **Alcance y criterios de éxito del proyecto**
+
+## Alcance
+El proyecto se centra en el análisis de la base de datos del Sistema de Información Integrado para el Registro y la Erradicación del Trabajo Infantil y sus Peores Formas en Bogotá. La información incluye registros de niños, niñas y adolescentes (NNA) con datos sociodemográficos, familiares, sociales, de salud y laborales.
+El alcance contempla:
+
+ - Procesamiento, limpieza y organización de los registros disponibles.
+
+ - Análisis descriptivo y exploratorio para caracterizar la población en condición de trabajo infantil.
+
+ - Identificación de patrones y factores de riesgo asociados al fenómeno.
+
+ - Elaboración de indicadores y visualizaciones que apoyen la toma de decisiones institucionales.
+
+Quedan fuera del alcance del presente análisis: la recolección de nueva información en campo y la implementación directa de programas de intervención, dado que el objetivo principal es el diagnóstico y generación de insumos para la política pública.
+
+**Criterios de éxito**
+
+El proyecto se considerará exitoso si logra:
+
+**1.** Producir un diagnóstico integral y confiable sobre la magnitud y características del trabajo infantil en Bogotá.
+
+**2.** Identificar factores de riesgo y territorios críticos que permitan priorizar acciones de intervención.
+
+**3.** Generar insumos visuales y analíticos que sean comprensibles y útiles para los tomadores de decisiones en el diseño de políticas y programas de protección infantil.
+
+# **Terminología**
+
+## Glosario de terminología del negocio
+
+**Trabajo infantil:** Actividades económicas o de supervivencia realizadas por niños, niñas o adolescentes que afectan negativamente su desarrollo físico, mental, social o educativo.
+
+**Peores formas de trabajo infantil:** Modalidades que implican explotación, peligro, ilegalidad o riesgo extremo para la salud y la vida de los NNA (ej. trabajo en minas, explotación sexual, reclutamiento ilícito).
+
+**NNA:** Sigla para “niños, niñas y adolescentes”. Se utiliza como denominación inclusiva de la población objeto de estudio.
+
+**Acompañamiento social y familiar:** Estrategias implementadas por entidades sociales para brindar apoyo psicosocial, educativo y económico a las familias y NNA en riesgo.
+
+**Condiciones de salud:** Información relativa al bienestar físico y psicológico de los NNA que permite identificar afectaciones derivadas del trabajo infantil.
+
+
+## Glosario de terminología de minería de datos
+
+**Variable:** Característica o atributo registrado en la base de datos (ejemplo: edad, género, localidad, estado de salud).
+
+**Registro:** Cada fila en la base de datos que corresponde a un NNA con sus respectivas características.
+
+**Segmentación (clustering):** Técnica que agrupa individuos con características similares (ejemplo: clúster de NNA en riesgo alto según edad y condiciones laborales).
+
+**Patrón:** Relación recurrente identificada en los datos (ejemplo: mayor incidencia de trabajo infantil en localidades con baja asistencia escolar).
+
+**Indicador:** Medida cuantitativa construida a partir de los datos para describir un fenómeno (ejemplo: porcentaje de NNA que trabajan por localidad).
 
 
