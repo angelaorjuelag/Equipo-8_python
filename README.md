@@ -107,7 +107,7 @@ El proyecto se considerará exitoso si logra:
 
 **Indicador:** Medida cuantitativa construida a partir de los datos para describir un fenómeno (ejemplo: porcentaje de NNA que trabajan por localidad).
 
-# **Recursos**
+# **Recursos (Base)**
 
 - **Identificación y fechas:**  
   `Id_fic`, `Usuario`, `Red_fic`, `Fecha_intervencion`, `Fecha_seguimiento_cierre`, `Fecha_reposicion`.  
