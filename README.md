@@ -5,9 +5,6 @@
 ### Antecedentes
 El trabajo infantil en Bogotá sigue siendo un fenómeno social complejo que limita el desarrollo integral de los niños, niñas y adolescentes (NNA), afectando su acceso a la educación, su bienestar emocional y su salud física. La existencia de registros integrados ofrece una oportunidad para caracterizar y comprender este problema de manera más precisa.
 
-### Objetivos del negocio
-Generar un diagnóstico claro y sustentado sobre la magnitud y características del trabajo infantil en la ciudad, de forma que la información obtenida permita fortalecer los programas de prevención, atención y erradicación.
-
 ### Criterios de éxito del negocio
 Proporcionar a las instituciones gubernamentales y sociales datos confiables y estructurados que apoyen la toma de decisiones y contribuyan a políticas públicas efectivas orientadas a la protección de la niñez.
 
@@ -40,19 +37,19 @@ Lograr indicadores estadísticos, visualizaciones y modelos analíticos que perm
 # **Objetivos**
 
 ## Objetivo específico
-Analizar la situación del trabajo infantil en Bogotá a partir de registros sociales, familiares y de salud, con el fin de generar información que oriente políticas públicas y acciones de protección para los niños, niñas y adolescentes.
+Analizar y diagnosticar la situación del trabajo infantil en Bogotá a partir de registros sociales, familiares, de salud y laborales, para el 16 de octubre, con el fin de proporcionar información confiable y visualmente interpretativa que oriente la formulación de políticas públicas y estrategias de protección integral para niños, niñas y adolescentes.
  
 ## Objetivo específico
 
-**1.** Caracterizar la población infantil y adolescente en condición de trabajo en Bogotá, según variables sociodemográficas como edad, género y localidad, con el fin de identificar los grupos más afectados.
+**1.** Caracterizar la población infantil y adolescente en condición de trabajo en Bogotá, para el 16 de octubre, según variables sociodemográficas (edad, género, localidad) y de entorno, identificando los grupos más afectados y estableciendo indicadores de incidencia por segmento poblacional.
 
-**2.** Analizar las condiciones familiares, sociales y de salud reportadas en los registros, para comprender los factores de riesgo y vulnerabilidad asociados a la permanencia en el trabajo infantil.
+**2.** Analizar las condiciones familiares, sociales y de salud de los NNA registrados, para el 16 de octubre, con el fin de detectar patrones de vulnerabilidad asociados a la permanencia en trabajo infantil.
 
-**3.** Identificar diferencias territoriales y patrones de concentración del fenómeno entre localidades de Bogotá, que permitan orientar estrategias de intervención diferenciadas.
+**3.** Identificar las diferencias territoriales y zonas de concentración del trabajo infantil entre las localidades de Bogotá, para el 16 de octubre, utilizando herramientas de análisis espacial y segmentación de datos.
 
-**4.** Detectar variables críticas (entre económicas, sociales, educativas o de salud) que influyen en la probabilidad de que un NNA se encuentre en trabajo infantil o en sus peores formas.
+**4.** Determinar las variables críticas (económicas, sociales, educativas o de salud) que más influyen en la probabilidad de que un NNA trabaje o esté en peores formas de trabajo infantil, aplicando técnicas analíticas de minería de datos, para el 16 de octubre.
 
-**5.** Generar información organizada, visual e interpretativa que facilite el entendimiento integral de la problemática y sirva como insumo para la formulación de políticas públicas y programas de protección infantil.
+**5.** Generar un informe visual e interpretativo con los resultados del análisis, incluyendo indicadores, gráficos, mapas y conclusiones, para el 16 de octubre, para que sirva como insumo técnico en la formulación de políticas públicas y programas de protección infantil.
 
 # **Alcance y criterios de éxito del proyecto**
 
