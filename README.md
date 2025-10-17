@@ -37,17 +37,17 @@ Lograr indicadores estadísticos, visualizaciones y modelos analíticos que perm
 # **Objetivos**
 
 ## Objetivo específico
-Analizar y diagnosticar la situación del trabajo infantil en Bogotá a partir de registros sociales, familiares, de salud y laborales, para el 16 de octubre, con el fin de proporcionar información confiable y visualmente interpretativa que oriente la formulación de políticas públicas y estrategias de protección integral para niños, niñas y adolescentes.
+Analizar y diagnosticar la situación del trabajo infantil en Bogotá a partir de registros sociales, familiares, de salud y laborales, con el fin de proporcionar información confiable y visualmente interpretativa que oriente la formulación de políticas públicas y estrategias de protección integral para niños, niñas y adolescentes.
  
 ## Objetivo específico
 
-**1.** Caracterizar la población infantil y adolescente en condición de trabajo en Bogotá, para el 16 de octubre, según variables sociodemográficas (edad, género, localidad) y de entorno, identificando los grupos más afectados y estableciendo indicadores de incidencia por segmento poblacional.
+**1.** Caracterizar la población infantil y adolescente en condición de trabajo en Bogotá, según variables sociodemográficas (edad, género, localidad) y de entorno, identificando los grupos más afectados y estableciendo indicadores de incidencia por segmento poblacional.
 
-**2.** Analizar las condiciones familiares, sociales y de salud de los NNA registrados, para el 16 de octubre, con el fin de detectar patrones de vulnerabilidad asociados a la permanencia en trabajo infantil.
+**2.** Analizar las condiciones familiares, sociales y de salud de los NNA registrados, con el fin de detectar patrones de vulnerabilidad asociados a la permanencia en trabajo infantil.
 
-**3.** Identificar las diferencias territoriales y zonas de concentración del trabajo infantil entre las localidades de Bogotá, para el 16 de octubre, utilizando herramientas de análisis espacial y segmentación de datos.
+**3.** Identificar las diferencias territoriales y zonas de concentración del trabajo infantil entre las localidades de Bogotá, utilizando herramientas de análisis espacial y segmentación de datos.
 
-**4.** Determinar las variables críticas (económicas, sociales, educativas o de salud) que más influyen en la probabilidad de que un NNA trabaje o esté en peores formas de trabajo infantil, aplicando técnicas analíticas de minería de datos, para el 16 de octubre.
+**4.** Determinar las variables críticas (económicas, sociales, educativas o de salud) que más influyen en la probabilidad de que un NNA trabaje o esté en peores formas de trabajo infantil, aplicando técnicas analíticas de minería de datos.
 
 **5.** Generar un informe visual e interpretativo con los resultados del análisis, incluyendo indicadores, gráficos, mapas y conclusiones, para el 16 de octubre, para que sirva como insumo técnico en la formulación de políticas públicas y programas de protección infantil.
 
@@ -137,5 +137,228 @@ El proyecto se considerará exitoso si logra:
 - **Operación del programa:**  
   `Nombre_de_la_UT`, `Perfil_profesional`, `Temas_tratados`, `Acompanamiento#`, `IEC#`.  
   *Datos sobre la gestión y seguimiento de los programas de intervención.*  
+
+## 4. ENTENDIMIENTO DE LOS DATOS
+
+### 4.1 Estructura general de la base
+
+| Variable | Descripción | Ejemplo |
+|-----------------------|-----------------------------|-------------------|
+| `SEXO` | Sexo del NNA | 1- Hombre |
+| `OCUPACIÓN` | Actividad principal | 3- Estudiante |
+| `LOCALIDAD` | Zona de residencia | 19- Ciudad Bolívar |
+| `ESTRATO_SOCIOECONÓMICO` | Nivel económico del hogar | 2\. Bajo |
+| `POBLACIÓN_DIFERENCIAL_Y_DE_INCLUSIÓN` | Grupo poblacional especial | 13- Migrante |
+| `NNA_DESVINCULADO_DE_LA_ACTIVIDAD_LABORAL` | Estado laboral actual | SI / NO |
+
+![](01_dashboard_general.png)
+
+------------------------------------------------------------------------
+
+### 4.2 Variables con mayor porcentaje de faltantes
+
+![](6abf94e5-b7ae-4ee6-8239-a96e6fbeae13.png)
+
+Las 15 variables con mayor porcentaje de faltantes incluyen campos
+administrativos y de intervención institucional, como:\
+- `INFORMACIÓN_DEL_ACUDIENTE`\
+- `INFORMACIÓN_LABORAL`\
+- `ACOMPAÑAMIENTO_2`\
+- `ÚLTIMA_INTERVENCIÓN`\
+- `DIRECCIÓN_DE_LA_VIVIENDA`
+
+El **100% de faltantes** en estas variables responde a campos
+condicionales no aplicables en todos los registros.
+
+Por tanto, se decidió **no imputarlas** y excluirlas del modelado
+predictivo.
+
+------------------------------------------------------------------------
+
+### 4.3 Anonimización y consistencia
+
+-   Eliminación de identificadores personales.\
+-   Estandarización de texto y codificación de variables.\
+-   Conversión de fechas, factores y etiquetas uniformes.\
+-   Normalización de nombres de localidades y estratos.
+
+------------------------------------------------------------------------
+
+## 5. ANÁLISIS DESCRIPTIVO
+
+### 5.1 Caracterización demográfica
+
+| Variable | Distribución destacada |
+|-----------------------|-------------------------------------------------|
+| **Sexo** | 1- Hombre: 40.6% / 2- Mujer: 39.6% / Intersexual: 0.0% |
+| **Estrato socioeconómico** | 2\. Bajo (52.3%), 3. Medio-bajo (16.0%), 1. Bajo-bajo (11.4%) |
+| **Ocupación principal** | 3- Estudiante (39.7%), 2- Trabajo informal (17.1%), 11- Ninguno (4.8%) |
+| **Vínculo con el jefe del hogar** | Hijo(a) (57.4%), Nieto(a) (2.4%), Otro pariente (1.9%) |
+
+![](01_dashboard_demografico.png)
+
+> 🧠 *La mayoría de los NNA son hombres y estudiantes pertenecientes a
+> hogares de estrato bajo, principalmente en el sur de la ciudad.*
+
+------------------------------------------------------------------------
+
+### 5.2 Condición laboral de los NNA
+
+| Estado laboral | Frecuencia | Porcentaje |
+|----------------|------------|------------|
+| SI             | 35,071     | 62.1%      |
+| NO             | 7,248      | 12.8%      |
+| Si             | 1,557      | 2.8%       |
+| No             | 421        | 0.7%       |
+| NO APLICA      | 32         | 0.1%       |
+| NA             | 12,144     | 21.5%      |
+
+> ⚠️ **El 64.9% de los NNA** han estado o están vinculados laboralmente,
+> lo cual indica una **alta incidencia de trabajo infantil** en la
+> muestra analizada.
+
+![](03_analisis_laboral.png)
+
+------------------------------------------------------------------------
+
+### 5.3 Distribución territorial
+
+| Localidad          | Casos reportados (%) |
+|--------------------|----------------------|
+| 19- Ciudad Bolívar | 11.9%                |
+| 7- Bosa            | 9.1%                 |
+| 8- Kennedy         | 8.4%                 |
+| 11- Suba           | 7.6%                 |
+| 10- Engativá       | 5.9%                 |
+
+> 📍 Las localidades del sur y suroccidente (Ciudad Bolívar, Bosa y
+> Kennedy) concentran el **mayor número de casos**.
+
+------------------------------------------------------------------------
+
+### 5.4 Población diferencial
+
+![](dda9e5c0-dda7-466e-af5a-d55e485dc0a2.png)
+
+| Condición                       | Porcentaje |
+|---------------------------------|------------|
+| 14- No Aplica                   | 90.8%      |
+| 13- Migrante                    | 8.7%       |
+| 2- Discapacidad                 | 0.3%       |
+| 1- Víctima del conflicto armado | 0.1%       |
+
+> 💬 Los NNA migrantes presentan **mayor exposición al trabajo
+> informal**, especialmente en sectores de bajo estrato.
+
+------------------------------------------------------------------------
+
+### 5.5 Cruces analíticos clave
+
+![](02_cruces_analiticos.png)\
+![](03_heatmap_ocupacion_sexo.png)\
+![](02_heatmap_vinculo.png)
+
+-   Las **ocupaciones informales** están asociadas mayormente a
+    hombres.\
+-   Las **labores de cuidado y oficios del hogar** son realizadas
+    principalmente por mujeres.\
+-   Los **nietos, hijastros y familiares indirectos** presentan mayores
+    tasas de trabajo infantil.
+
+------------------------------------------------------------------------
+
+## 6. MODELADO PREDICTIVO
+
+### 6.1 Modelos utilizados
+
+| Modelo              | Accuracy | Observaciones                              |
+|------------------|----------------------|--------------------------------|
+| Árbol de decisión   | 0.81     | Buen balance entre precisión y simplicidad |
+| Random Forest       | 0.88     | Mejor desempeño general                    |
+| Gradient Boosting   | 0.87     | Buen ajuste pero mayor complejidad         |
+| Regresión logística | 0.73     | Base comparativa                           |
+
+![](01_comparacion_modelos.png) ![](03_confusion_matrix.png)
+![](02_importancia_variables.png)
+
+### 6.2 Variables más relevantes
+
+1.  Ocupación\
+2.  Estrato socioeconómico\
+3.  Localidad\
+4.  Sexo\
+5.  Vínculo con el jefe del hogar
+
+> 🔍 *Las variables socioeconómicas y familiares explican la mayor parte
+> de la varianza del modelo.*
+
+------------------------------------------------------------------------
+
+## 7. HALLAZGOS CLAVE
+
+1.  **Alta prevalencia del trabajo infantil (≈65%)**, especialmente en
+    hogares de bajo estrato y estructura familiar extendida.\
+2.  **Ciudad Bolívar, Bosa y Kennedy** son las zonas con mayor
+    concentración de casos.\
+3.  **Sexo y ocupación** mantienen relación directa: hombres en trabajo
+    informal, mujeres en cuidado del hogar.\
+4.  Los **migrantes** y **NNA con discapacidad** muestran mayor
+    vulnerabilidad.\
+5.  El **estrato bajo y medio-bajo** es el principal determinante
+    socioeconómico.\
+6.  El **modelo Random Forest** alcanzó **0.88 de exactitud**, validando
+    su potencial predictivo.
+
+------------------------------------------------------------------------
+
+## 8. CONCLUSIONES
+
+✅ **Cumplimiento del criterio de éxito:**\
+El modelo superó el umbral esperado (Accuracy \> 0.80), cumpliendo los
+objetivos de predicción y caracterización.
+
+📈 **Conclusiones generales:** - El trabajo infantil en Bogotá tiene una
+**causa estructural socioeconómica**.\
+- Se observa un **perfil de riesgo concentrado en el sur y occidente**
+de la ciudad.\
+- Los resultados permiten **diseñar estrategias territoriales
+focalizadas** y **políticas basadas en evidencia**.\
+- La aplicación de **CRISP–DM** garantizó orden, trazabilidad y
+replicabilidad del proceso analítico.
+
+------------------------------------------------------------------------
+
+## 9. RECOMENDACIONES
+
+1.  **Focalizar intervenciones** en las localidades con mayor incidencia
+    (Ciudad Bolívar, Bosa, Kennedy).\
+2.  **Fortalecer programas de acompañamiento familiar**, especialmente
+    en hogares no nucleares.\
+3.  **Implementar estrategias educativas** de reintegración para NNA
+    desvinculados laboralmente.\
+4.  **Consolidar un sistema de monitoreo permanente** de casos, con
+    datos actualizados y compartidos entre instituciones.\
+5.  **Actualizar el modelo predictivo** semestralmente para incorporar
+    nuevos registros y tendencias.
+
+------------------------------------------------------------------------
+
+## 10. ANEXOS VISUALES
+
+![](30c404fe-3c53-4974-8a45-6892f21b1090.png)
+![](02_heatmap_vinculo.png) ![](02_sexo_ocupacion.png)
+![](04_poblacion_diferencial.png) ![](01_dashboard_general.png)
+![](03_analisis_laboral.png)
+
+------------------------------------------------------------------------
+
+## 11. CONCLUSIÓN FINAL
+
+El análisis permitió construir una **visión integral del trabajo
+infantil en Bogotá**, integrando factores **demográficos, familiares,
+económicos y territoriales**.\
+El modelo predictivo desarrollado ofrece una herramienta robusta para
+apoyar decisiones institucionales en la **erradicación y prevención del
+trabajo infantil**.
 
 
