@@ -283,10 +283,10 @@ predictivo.
 
 ### 6.2 Variables más relevantes
 
-1.  Ocupación\
-2.  Estrato socioeconómico\
-3.  Localidad\
-4.  Sexo\
+1.  Ocupación
+2.  Estrato socioeconómico
+3.  Localidad
+4.  Sexo
 5.  Vínculo con el jefe del hogar
 
 > *Las variables socioeconómicas y familiares explican la mayor parte
