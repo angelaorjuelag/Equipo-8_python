@@ -138,9 +138,9 @@ El proyecto se considerará exitoso si logra:
   `Nombre_de_la_UT`, `Perfil_profesional`, `Temas_tratados`, `Acompanamiento#`, `IEC#`.  
   *Datos sobre la gestión y seguimiento de los programas de intervención.*  
 
-## 4. ENTENDIMIENTO DE LOS DATOS
+## ENTENDIMIENTO DE LOS DATOS
 
-### 4.1 Estructura general de la base
+### Estructura general de la base
 
 | Variable | Descripción | Ejemplo |
 |-----------------------|-----------------------------|-------------------|
@@ -155,7 +155,7 @@ El proyecto se considerará exitoso si logra:
 
 ------------------------------------------------------------------------
 
-### 4.2 Variables con mayor porcentaje de faltantes
+### Variables con mayor porcentaje de faltantes
 
 ![](6abf94e5-b7ae-4ee6-8239-a96e6fbeae13.png)
 
@@ -175,7 +175,7 @@ predictivo.
 
 ------------------------------------------------------------------------
 
-### 4.3 Anonimización y consistencia
+### Anonimización y consistencia
 
 -   Eliminación de identificadores personales.\
 -   Estandarización de texto y codificación de variables.\
@@ -184,9 +184,9 @@ predictivo.
 
 ------------------------------------------------------------------------
 
-## 5. ANÁLISIS DESCRIPTIVO
+## ANÁLISIS DESCRIPTIVO
 
-### 5.1 Caracterización demográfica
+### Caracterización demográfica
 
 | Variable | Distribución destacada |
 |-----------------------|-------------------------------------------------|
@@ -197,12 +197,12 @@ predictivo.
 
 ![](01_dashboard_demografico.png)
 
-> 🧠 *La mayoría de los NNA son hombres y estudiantes pertenecientes a
+> *La mayoría de los NNA son hombres y estudiantes pertenecientes a
 > hogares de estrato bajo, principalmente en el sur de la ciudad.*
 
 ------------------------------------------------------------------------
 
-### 5.2 Condición laboral de los NNA
+### Condición laboral de los NNA
 
 | Estado laboral | Frecuencia | Porcentaje |
 |----------------|------------|------------|
@@ -213,7 +213,7 @@ predictivo.
 | NO APLICA      | 32         | 0.1%       |
 | NA             | 12,144     | 21.5%      |
 
-> ⚠️ **El 64.9% de los NNA** han estado o están vinculados laboralmente,
+> **El 64.9% de los NNA** han estado o están vinculados laboralmente,
 > lo cual indica una **alta incidencia de trabajo infantil** en la
 > muestra analizada.
 
@@ -221,7 +221,7 @@ predictivo.
 
 ------------------------------------------------------------------------
 
-### 5.3 Distribución territorial
+### Distribución territorial
 
 | Localidad          | Casos reportados (%) |
 |--------------------|----------------------|
@@ -231,12 +231,12 @@ predictivo.
 | 11- Suba           | 7.6%                 |
 | 10- Engativá       | 5.9%                 |
 
-> 📍 Las localidades del sur y suroccidente (Ciudad Bolívar, Bosa y
+> Las localidades del sur y suroccidente (Ciudad Bolívar, Bosa y
 > Kennedy) concentran el **mayor número de casos**.
 
 ------------------------------------------------------------------------
 
-### 5.4 Población diferencial
+### Población diferencial
 
 ![](dda9e5c0-dda7-466e-af5a-d55e485dc0a2.png)
 
@@ -247,12 +247,12 @@ predictivo.
 | 2- Discapacidad                 | 0.3%       |
 | 1- Víctima del conflicto armado | 0.1%       |
 
-> 💬 Los NNA migrantes presentan **mayor exposición al trabajo
+>  Los NNA migrantes presentan **mayor exposición al trabajo
 > informal**, especialmente en sectores de bajo estrato.
 
 ------------------------------------------------------------------------
 
-### 5.5 Cruces analíticos clave
+### Cruces analíticos clave
 
 ![](02_cruces_analiticos.png)\
 ![](03_heatmap_ocupacion_sexo.png)\
@@ -267,9 +267,9 @@ predictivo.
 
 ------------------------------------------------------------------------
 
-## 6. MODELADO PREDICTIVO
+## MODELADO PREDICTIVO
 
-### 6.1 Modelos utilizados
+### Modelos utilizados
 
 | Modelo              | Accuracy | Observaciones                              |
 |------------------|----------------------|--------------------------------|
@@ -289,12 +289,12 @@ predictivo.
 4.  Sexo\
 5.  Vínculo con el jefe del hogar
 
-> 🔍 *Las variables socioeconómicas y familiares explican la mayor parte
+> *Las variables socioeconómicas y familiares explican la mayor parte
 > de la varianza del modelo.*
 
 ------------------------------------------------------------------------
 
-## 7. HALLAZGOS CLAVE
+## HALLAZGOS CLAVE
 
 1.  **Alta prevalencia del trabajo infantil (≈65%)**, especialmente en
     hogares de bajo estrato y estructura familiar extendida.\
@@ -311,7 +311,7 @@ predictivo.
 
 ------------------------------------------------------------------------
 
-## 8. CONCLUSIONES
+## CONCLUSIONES
 
 ✅ **Cumplimiento del criterio de éxito:**\
 El modelo superó el umbral esperado (Accuracy \> 0.80), cumpliendo los
@@ -328,7 +328,7 @@ replicabilidad del proceso analítico.
 
 ------------------------------------------------------------------------
 
-## 9. RECOMENDACIONES
+## RECOMENDACIONES
 
 1.  **Focalizar intervenciones** en las localidades con mayor incidencia
     (Ciudad Bolívar, Bosa, Kennedy).\
@@ -343,7 +343,7 @@ replicabilidad del proceso analítico.
 
 ------------------------------------------------------------------------
 
-## 10. ANEXOS VISUALES
+## ANEXOS VISUALES
 
 ![](30c404fe-3c53-4974-8a45-6892f21b1090.png)
 ![](02_heatmap_vinculo.png) ![](02_sexo_ocupacion.png)
@@ -352,7 +352,7 @@ replicabilidad del proceso analítico.
 
 ------------------------------------------------------------------------
 
-## 11. CONCLUSIÓN FINAL
+## CONCLUSIÓN FINAL
 
 El análisis permitió construir una **visión integral del trabajo
 infantil en Bogotá**, integrando factores **demográficos, familiares,
