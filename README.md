@@ -313,33 +313,20 @@ predictivo.
 
 ## CONCLUSIONES
 
-✅ **Cumplimiento del criterio de éxito:**\
-El modelo superó el umbral esperado (Accuracy \> 0.80), cumpliendo los
-objetivos de predicción y caracterización.
-
-📈 **Conclusiones generales:** - El trabajo infantil en Bogotá tiene una
-**causa estructural socioeconómica**.\
-- Se observa un **perfil de riesgo concentrado en el sur y occidente**
-de la ciudad.\
-- Los resultados permiten **diseñar estrategias territoriales
-focalizadas** y **políticas basadas en evidencia**.\
-- La aplicación de **CRISP–DM** garantizó orden, trazabilidad y
-replicabilidad del proceso analítico.
-
+Criterio de Éxito Cumplido: El modelo superó el umbral esperado (Accuracy > 0.80), validando los objetivos de predicción.
+Políticas Basadas en Evidencia: Los resultados permiten diseñar estrategias territoriales y políticas con sustento analítico.
+Causa Estructural: El trabajo infantil en Bogotá tiene una causa estructural predominantemente socioeconómica.
+Perfil de Riesgo: Riesgo concentrado en el sur y occidente de la ciudad, permitiendo focalización.
 ------------------------------------------------------------------------
 
 ## RECOMENDACIONES
 
-1.  **Focalizar intervenciones** en las localidades con mayor incidencia
-    (Ciudad Bolívar, Bosa, Kennedy).\
+1.  **Focalizar intervenciones** Intervenir prioritariamente en Ciudad Bolívar, Bosa y Kennedy, las localidades con mayor incidencia.\
 2.  **Fortalecer programas de acompañamiento familiar**, especialmente
-    en hogares no nucleares.\
-3.  **Implementar estrategias educativas** de reintegración para NNA
-    desvinculados laboralmente.\
-4.  **Consolidar un sistema de monitoreo permanente** de casos, con
-    datos actualizados y compartidos entre instituciones.\
-5.  **Actualizar el modelo predictivo** semestralmente para incorporar
-    nuevos registros y tendencias.
+    en hogares no nucleares (nietos, hijastros).\
+3.  **Implementar estrategias educativas** Implementar programas de reintegración escolar efectivos para NNA desvinculados laboralmente.\
+4.  **Consolidar un sistema de monitoreo permanente** Consolidar un sistema de monitoreo de casos con datos actualizados y compartidos entre instituciones.\
+5.  **Actualizar el modelo predictivo** Actualizar el modelo predictivo** Actualizar el modelo predictivo semestralmente para incorporar nuevas tendencias y registros.
 
 ------------------------------------------------------------------------
 
