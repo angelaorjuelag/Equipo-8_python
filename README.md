@@ -312,11 +312,10 @@ predictivo.
 ------------------------------------------------------------------------
 
 ## CONCLUSIONES
-
-Criterio de Éxito Cumplido: El modelo superó el umbral esperado (Accuracy > 0.80), validando los objetivos de predicción.
-Políticas Basadas en Evidencia: Los resultados permiten diseñar estrategias territoriales y políticas con sustento analítico.
-Causa Estructural: El trabajo infantil en Bogotá tiene una causa estructural predominantemente socioeconómica.
-Perfil de Riesgo: Riesgo concentrado en el sur y occidente de la ciudad, permitiendo focalización.
+**Criterio de Éxito Cumplido:** El modelo superó el umbral esperado (Accuracy > 0.80), validando los objetivos de predicción.
+**Políticas Basadas en Evidencia:** Los resultados permiten diseñar estrategias territoriales y políticas con sustento analítico.
+**Causa Estructural:** El trabajo infantil en Bogotá tiene una causa estructural predominantemente socioeconómica.
+**Perfil de Riesgo:** Riesgo concentrado en el sur y occidente de la ciudad, permitiendo focalización.
 ------------------------------------------------------------------------
 
 ## RECOMENDACIONES
